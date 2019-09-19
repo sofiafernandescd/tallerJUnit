@@ -27,6 +27,13 @@ public class Articulo {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+	public Articulo(Long id, String descripcion, Double precio) {
+		super();
+		this.id = id;
+		this.descripcion = descripcion;
+		this.precio = precio;
+	}
+
 	public Double getPrecio() {
 		return precio;
 	}
